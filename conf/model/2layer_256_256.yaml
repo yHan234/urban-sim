@@ -1,0 +1,6 @@
+num_layers: 2
+hidden_channels: [256, 256, 256]
+kernel_size: [3, 3]
+cbam_sa_kernel_size: 3
+dropout: 0.5
+batch_norm: False

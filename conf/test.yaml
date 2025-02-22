@@ -1,0 +1,13 @@
+test:
+  checkpoint_file: train\checkpoint_6.pth
+
+  batch_size: 8
+  num_workers: 1
+
+  year_begin: 2006
+  year_end: 2018
+
+  prefix_len: 6
+  predict_len: 6
+
+  drop_edge_width: 4
