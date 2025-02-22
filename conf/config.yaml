@@ -1,0 +1,5 @@
+defaults:
+  - data: hzb
+  - model: 2layers_96_96
+  - train
+  - test

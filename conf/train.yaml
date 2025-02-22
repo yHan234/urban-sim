@@ -1,0 +1,24 @@
+train:
+  checkpoints_dir: train/checkpoints
+  summary_dir: train/summary
+
+  resume: False
+  timestamp: "20250306_075953"
+  checkpoint_file: checkpoint_50.pth
+
+  seed: 3407
+  epochs: 10
+  teacher_forcing_epochs: 5
+
+  val_set_ratio: 0.15
+  batch_size: 8
+  num_workers: 1
+
+  learning_rate: 2.0e-6
+  weight_decay: 0.01
+
+  year_begin: 2000
+  year_end: 2012
+
+  prefix_len: 6
+  predict_len: 6

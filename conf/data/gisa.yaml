@@ -1,0 +1,24 @@
+data_dir: dataset\gisa
+split_dir: dataset-split\gisa
+
+spatial_vars: [slope, county, town]
+
+train:
+  block_size: 64
+  block_step: 64
+
+  year_begin: 2000
+  year_end: 2012
+
+  crop: false
+  crop_required_block_count: 0
+
+test:
+  block_size: 64
+  block_step: 38
+
+  year_begin: 2006
+  year_end: 2018
+
+  crop: false
+  crop_required_block_count: 0

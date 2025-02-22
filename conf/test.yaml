@@ -1,0 +1,19 @@
+test:
+  show_images: False
+
+  use_prob_npy: False
+  prob_npy_file: test\20250303_194527\prob.npy
+
+  checkpoint_file: train\checkpoints\20250309_101041\checkpoint_9.pth
+  result_dir: test\
+
+  batch_size: 16
+  num_workers: 2
+
+  year_begin: 2006
+  year_end: 2018
+
+  prefix_len: 6
+  predict_len: 6
+
+  drop_edge_width: 4

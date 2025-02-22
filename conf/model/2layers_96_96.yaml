@@ -1,0 +1,7 @@
+num_layers: 2
+kernel_sizes: [3, 3]
+hidden_channels: [96, 96]
+cbam_ca_reduction: 2
+cbam_sa_kernel_size: 3
+dropout: 0.7
+layer_norm: True
